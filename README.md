@@ -1,5 +1,5 @@
-# Wrenchable
-A lightweight, JiJ-able wrench library which aims to make wrenches compatible between mods.
+# Wrenchable: Forge
+A lightweight, JiJ-able wrench library which aims to make wrenches compatible between mods. This version is for Forge.
 
 To include it in your project, add this to your build.gradle:
 ```groovy
@@ -8,8 +8,7 @@ maven {
     url  "https://dl.bintray.com/zundrel/wrenchable"
 }
 dependencies {
-    modApi 'com.zundrel:wrenchable:LATEST'
-    include 'com.github.Zundrel:wrenchable:LATEST'
+    modApi 'com.zundrel:wrenchableforge:1.0.0'
+    include 'com.github.Zundrel:wrenchableforge:1.0.0'
 }
 ```
-Where `LATEST` is the latest tag under the releases tab.

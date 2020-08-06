@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.zundrel.wrenchable.modkeys.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+	"MixinPlayerEntity"
+  ],
+  "client": [
+    "client.MixinControlsOptionsScreen"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

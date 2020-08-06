@@ -1,0 +1,17 @@
+modLoader="javafml"
+loaderVersion="[32,)"
+license="MIT"
+issueTrackerURL="https://github.com/Zundrel/Wrenchable-Forge/issues"
+
+[[mods]]
+# The modid of the mod
+modId="wrenchable"
+version="${file.jarVersion}"
+displayName="Wrenchable"
+# displayURL="https://www.curseforge.com/minecraft/mc-mods/wrenchable-forge"
+logoFile="icon.png"
+credits="Thanks to Grondag for Fermion Modkeys, which was ported and adapted into this Forge port of Wrenchable."
+authors="Zundrel"
+description='''
+A simple wrench API for making cross-mod compatible wrenches.
+'''
